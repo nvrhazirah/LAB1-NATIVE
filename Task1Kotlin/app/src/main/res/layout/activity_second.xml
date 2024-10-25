@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This will display the message from MainActivity"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Activity" />
+
+</LinearLayout>
